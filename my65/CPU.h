@@ -10,9 +10,8 @@ public:
 	unsigned int		m_Y;
 	unsigned int		m_SP;
 	unsigned int		m_PC;
-	unsigned int		m_AddrBus;
-	unsigned int		m_DataBus;
 
 	void		Reset();
+	void		Disassemble(unsigned int start);
 
 };

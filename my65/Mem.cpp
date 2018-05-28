@@ -18,7 +18,7 @@ void Mem::InitMem()
 {
 	for (int i = 0; i < MEM_SIZE; i++)
 	{
-		m_memory[i] = i & 0xff;
+		m_memory[i] = i >>8;
 	}
 }
 

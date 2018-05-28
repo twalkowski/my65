@@ -2,6 +2,8 @@
 #include "stdafx.h"
 
 extern HWND g_hPage;
+extern HWND g_hBuddy;
+extern HWND g_hUpDown;
 extern HWND g_hDisasm;
 extern HWND g_hCpuA;
 extern HWND g_hCpuX;

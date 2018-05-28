@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "CPU.h"
+#include "Mem.h"
 
 
 CPU::CPU()
@@ -19,4 +20,8 @@ void CPU::Reset()
 	m_SP = 0x01ff;
 	m_PC = 0xfffe;
 
+}
+
+void CPU::Disassemble(unsigned int start)
+{
 }
