@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CInstruction.h" />
     <ClInclude Include="CPU.h" />
     <ClInclude Include="Frame.h" />
     <ClInclude Include="Mem.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CInstruction.cpp" />
     <ClCompile Include="CPU.cpp" />
     <ClCompile Include="Frame.cpp" />
     <ClCompile Include="Mem.cpp" />

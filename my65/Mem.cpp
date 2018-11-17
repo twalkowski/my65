@@ -74,15 +74,4 @@ std::wstring Mem::PrintMem(int page)
 	return myBuffer.str();
 }
 
-std::wstring Mem::To_hex(unsigned int value, int width)
-{
-	std::wstringstream myBuffer;
 
-	myBuffer
-		<< std::hex
-		<< std::setfill(L'0')
-		<< std::setw(width)
-		<< value;
-
-	return myBuffer.str();
-}

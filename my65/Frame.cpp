@@ -94,7 +94,7 @@ void DrawGUI(HWND window)
 
 	// Group box container for disassembly window
 	CreateWindow(L"Button", L"Disassembly", WS_CHILD | WS_VISIBLE | BS_GROUPBOX, 292, 16, 320, 200, window, (HMENU)IDB_GROUP1, NULL, NULL);
-	g_hDisasm = CreateWindow(L"Edit", L"f834:  7d 45 ad  lda (ad45) ",
+	g_hDisasm = CreateWindow(L"Edit", L"f834:  7d 45 ad  lda ($ad45) ",
 		WS_CHILD | WS_VISIBLE | WS_BORDER | ES_CENTER | ES_MULTILINE | ES_READONLY,
 		308, 48, 288, 152, window, (HMENU)IDB_GROUP1, NULL, NULL);
 	SendMessage(g_hDisasm, WM_SETFONT, (WPARAM)hFont, TRUE);
